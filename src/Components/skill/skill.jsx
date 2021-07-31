@@ -1,17 +1,16 @@
 import React from 'react';
-import kelu from '../../assets/images/kelu.png';
 
-
-class Title extends React.Component {
+class Skill extends React.Component {
     state = { 
+        title: "Skills"
      }
     render() { 
         return ( 
             <React.Fragment>
-                <img src={kelu} alt=""/>
+                <h2>{this.state.title}</h2>
             </React.Fragment>
          );
     }
 }
  
-export default Title;
+export default Skill;
