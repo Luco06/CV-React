@@ -1,0 +1,83 @@
+$color_beige:#C9C7B7;
+$color_red: #E8634E;
+
+.footer_box{
+    background: $color_red;
+    border-radius: 8px;
+    .footer_title{
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            
+        .barre_gauche{
+            border: solid $color_beige 2px;
+            width: 100%;
+        }
+        .footer_h2{
+            text-align: center;
+            color: $color_beige;
+            margin: 5px;
+            font-size: 20px;
+        }
+        .barre_droite{
+            border: solid $color_beige 2px;
+            width: 100%;
+        }
+    }
+    .footer_duo{
+        display: flex;
+        margin: 5px;
+        padding: 5px;
+
+        .footer_email{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            .footer_h3{
+                margin: 10px;
+                font-size: 12px;
+            }
+            .footer_form{
+                margin: 10px;
+                display: flex;
+                flex-direction: column;
+                input[type=text], input[type=email]{
+                    border-radius: 6px;
+                    margin: 1px;
+                    text-align: center;
+                }
+                textarea{
+                    border-radius: 6px;
+                } 
+                input[type=submit]{
+                    border-radius: 6px;
+                    margin: 1px;
+                }
+            }
+        }
+        .footer_reseaux{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            .footer_h3{
+                margin: 10px;
+                font-size: 12px;
+            }
+            .footer_img{
+                display: flex;
+                flex-direction: column;
+                margin:10px;
+                img{
+                    margin: 10px auto;
+                    width: 64px;
+                    height: 64px;
+                }
+            }
+        }
+    }
+    .footer_copyR{
+        color: white;
+        font-size: 10px;
+        text-align: center;
+    }
+}

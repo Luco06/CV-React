@@ -1,17 +1,20 @@
 import React from 'react';
 import kelu from '../../assets/images/kelu.png';
+import './title.scss';
 
 
 class Title extends React.Component {
-    state = { 
-     }
-    render() { 
-        return ( 
+    state = {
+    }
+    render() {
+        return (
             <React.Fragment>
-                <img src={kelu} alt=""/>
+                <div className="title_img">
+                    <img className="img_title" src={kelu} alt="" />
+                </div>
             </React.Fragment>
-         );
+        );
     }
 }
- 
+
 export default Title;
