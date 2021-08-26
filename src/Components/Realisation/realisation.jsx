@@ -25,10 +25,23 @@ class Realisation extends React.Component {
                         <p>Retrouvez-les et plus encore sur mon <a href={this.state.Github}>Github</a></p>
                     </div>
                     <div className="rea_items">
-                        <img className="rea_img" src={cartier} alt=""/>
-                        <img className="rea_img" src={femacom} alt=""/>
-                        <img className="rea_img" src={jo} alt=""/>
-                        <img className="rea_img" src={tim} alt=""/>
+
+                        <div className="item1">
+                        <img className="rea_img1" src={cartier} alt=""/>
+                        </div>
+
+                        <div className="item2">
+                        <img className="rea_img2" src={femacom} alt=""/>
+                        </div>
+
+                        <div className="item3">
+                        <img className="rea_img3" src={jo} alt=""/>
+                        </div>
+
+                        <div className="item4">
+                        <img className="rea_img4" src={tim} alt=""/>
+                        </div>
+                        
                     </div>
 
                 </div>

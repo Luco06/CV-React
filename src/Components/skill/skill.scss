@@ -18,3 +18,130 @@ $color_red:#E8634E;
         width: 100%;
     }
 }
+.skill_items{
+    width: 100%;
+
+    .item1{
+        width: auto;
+        margin: auto ;
+        animation: From_east_to_west ;
+        animation-duration: 1s;
+        transition: 1s;
+
+        @keyframes From_east_to_west {
+            from{
+                transform: translateX(-100%);
+            }
+            to{
+                transform: translateX(0%);
+            }
+        }
+        .img_item1{
+            display: block;
+            margin: 5px;
+            padding: 5px;
+            margin-left: auto;
+            margin-right: auto;
+           
+        }
+    }
+
+    .item2{
+        width: auto;
+        margin: auto ;
+        animation: From_west_to_east ;
+        animation-duration: 1s;
+        transition: 1s;
+
+        @keyframes From_west_to_east {
+            from{
+                transform: translateX(100%);
+            }
+            to{
+                transform: translateX(0%);
+            }
+        }
+        .img_item2{
+            display: block;
+            margin: 5px;
+            padding: 5px;
+            margin-left: auto;
+            margin-right: auto;
+           
+        }
+    }
+    .item3{
+        width: auto;
+        margin: auto ;
+        animation: From_east_to_west ;
+        animation-duration: 1s;
+        transition: 1s;
+
+        @keyframes From_east_to_west {
+            from{
+                transform: translateX(-100%);
+            }
+            to{
+                transform: translateX(0%);
+            }
+        }
+        .img_item3{
+            display: block;
+            margin: 5px;
+            padding: 5px;
+            margin-left: auto;
+            margin-right: auto;
+           
+        }
+    }
+    .item4{
+        width: auto;
+        margin: auto ;
+        animation: From_west_to_east ;
+        animation-duration: 1s;
+        transition: 1s;
+
+        @keyframes From_west_to_east {
+            from{
+                transform: translateX(100%);
+            }
+            to{
+                transform: translateX(0%);
+            }
+        }
+        .img_item4{
+            display: block;
+            margin: 5px;
+            padding: 5px;
+            margin-left: auto;
+            margin-right: auto;
+           
+        }
+    }
+    .item5{
+        width: auto;
+        margin: auto ;
+        animation: From_east_to_west ;
+        animation-duration: 1s;
+        transition: 1s;
+
+        @keyframes From_east_to_west {
+            from{
+                transform: translateX(-100%);
+            }
+            to{
+                transform: translateX(0%);
+            }
+        }
+        .img_item5{
+            display: block;
+            margin: 5px;
+            padding: 5px;
+            margin-left: auto;
+            margin-right: auto;
+           
+        }
+    }
+    
+    
+}

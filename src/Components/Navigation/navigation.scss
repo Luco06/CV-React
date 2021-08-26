@@ -6,19 +6,22 @@
         display: flex;
         flex-direction: row;
         margin: 0;
-        height:30px;
+        height:40px;
         width: auto;
-        justify-content: space-between;
-        padding-top: 5px;
-        .a_navigation{
-            color:black;
-            text-decoration: none;
-            margin: 15px;
-            margin-left: -20px;
-            margin-bottom: -30px;
-            font-size: 12px;
-            width:50px ;
-            
+        
+        .li_navigation{
+            width: auto;
+            margin: auto;
+            justify-content: center;
+            .a_navigation{
+                
+                color:black;
+                text-decoration: none;
+                margin-left: -20px;
+                font-size: 12px;
+                width:50px ;
+                
+            }
         }
     }
 

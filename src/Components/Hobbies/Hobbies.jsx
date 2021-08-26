@@ -1,22 +1,16 @@
 import React from 'react';
 import Cv from '../../assets/cv-luc.pdf';
-import bd from '../../assets/images/bd.png';
-import capoeira from '../../assets/images/capoeira.png';
-import jeux from '../../assets/images/jeux.png';
-import cuisine from '../../assets/images/cuisine.png';
+import Slider from'./Slider'
+import 'react-slideshow-image/dist/styles.css';
 import './hobbies.scss';
+import 'react-slideshow-image/dist/styles.css';
 
 class Hobbies extends React.Component {
 
     state = {
         title1: 'Mes hobbies',
-        items: [
-            bd,
-            cuisine,
-            capoeira,
-            jeux
-        ]
     }
+
     render() {
         return (
             <React.Fragment>
@@ -28,11 +22,8 @@ class Hobbies extends React.Component {
                         <div className="barre_droite"></div>
                     </div>
 
-                    <div className="slider">
-                        <img src={bd} alt="" className="slide" />
-                        <img src={capoeira} alt="" className="slide" />
-                        <img src={jeux} alt="" className="slide" />
-                        <img src={cuisine} alt="" className="slide" />
+                    <div className="slider"  >
+                        <Slider/>
                     </div>
 
                     <p className="hobbies_p">

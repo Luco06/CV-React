@@ -29,23 +29,35 @@ class Skill extends React.Component {
                 </div>
                     <div className="skill_items">
 
-                        <img src={angular} alt=""/>
-                        <img src={boots} alt=""/>
-                        <img src={css} alt=""/>
+                        <div className="item1">
+                        <img className="img_item1" src={angular} alt=""/>
+                        <img className="img_item1" src={boots} alt=""/>
+                        <img className="img_item1" src={css} alt=""/>
+                        </div>
 
-                        <img src={vue} alt=""/>
-                        <img src={react} alt=""/>
-                        <img src={mysql} alt=""/>
+                        <div className="item2">
+                        <img className="img_item2"  src={vue} alt=""/>
+                        <img className="img_item2"  src={react} alt=""/>
+                        <img className="img_item2"  src={mysql} alt=""/>
+                        </div>
 
-                        <img src={php} alt=""/>
-                        <img src={py} alt=""/>
-                        <img src={html} alt=""/>
+                        <div className="item3">
+                        <img className="img_item3" src={php} alt=""/>
+                        <img className="img_item3" src={py} alt=""/>
+                        <img className="img_item3" src={html} alt=""/>
+                        </div>
 
-                        <img src={sass} alt=""/>
-                        <img src={java} alt=""/>
+                        <div className="item4">
+                        <img className="img_item4" src={sass} alt=""/>
+                        <img className="img_item4" src={java} alt=""/>
+                        </div>
 
-                        <img src={js} alt=""/>
-                        <img src={ps} alt=""/>
+                        <div className="item5">
+                        <img className="img_item5" src={js} alt=""/>
+                        <img className="img_item5" src={ps} alt=""/>
+                        </div>
+
+
                     </div>
             </React.Fragment>
         );

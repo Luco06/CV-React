@@ -39,4 +39,112 @@ $color_red:#E8634E;
             
         }
     }
+    .rea_items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        .rea_img{
+            width: 60%;
+            margin:10px;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+    }
+    .rea_items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        .item1{
+            animation: From_east_to_west ;
+            animation-duration: 1s;
+            transition: 1s;
+    
+            @keyframes From_east_to_west {
+                from{
+                    transform: translateX(-100%);
+                }
+                to{
+                    transform: translateX(0%);
+                }
+            }
+            .rea_img1{
+                width: 60%;
+                margin:10px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+        }
+        .item2{
+            animation: From_west_to_east ;
+        animation-duration: 1s;
+        transition: 1s;
+
+        @keyframes From_west_to_east {
+            from{
+                transform: translateX(100%);
+            }
+            to{
+                transform: translateX(0%);
+            }
+        }
+            .rea_img2{
+                width: 60%;
+                margin:10px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+        }
+        .item3{
+            animation: From_east_to_west ;
+            animation-duration: 1s;
+            transition: 1s;
+    
+            @keyframes From_east_to_west {
+                from{
+                    transform: translateX(-100%);
+                }
+                to{
+                    transform: translateX(0%);
+                }
+            }
+            .rea_img3{
+                width: 60%;
+                margin:10px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+        }
+        .item4{
+            animation: From_west_to_east ;
+            animation-duration: 1s;
+            transition: 1s;
+    
+            @keyframes From_west_to_east {
+                from{
+                    transform: translateX(100%);
+                }
+                to{
+                    transform: translateX(0%);
+                }
+            }
+            .rea_img4{
+                width: 60%;
+                margin:10px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+        }
+    }
+    
 }

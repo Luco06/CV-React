@@ -26,9 +26,17 @@ $color_red: #E8634E;
     .slider{
         width: 128px;
         height: 128px;
-        overflow: hidden;
         margin: auto;
         margin-top: 10px;
+        .react-slideshow-container .default-nav {
+            display: none;
+        }
+        .react-slideshow-wrapper slide{
+            display: none;
+            width: 128px;
+            height: 128px;
+            
+        }
     } 
     
     .hobbies_p{
@@ -37,6 +45,7 @@ $color_red: #E8634E;
         width: 200px;
         margin: auto;
         margin-top: 20px;
+        border-radius: 10px;
             .hobbies_a{
                 text-align: center;
                 color: #E8634E;
