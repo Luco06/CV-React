@@ -1,5 +1,6 @@
 $color_beige:#C9C7B7;
 $color_red: #E8634E;
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Montserrat&display=swap');
 
 .footer_box{
     background: $color_red;
@@ -14,6 +15,7 @@ $color_red: #E8634E;
             width: 100%;
         }
         .footer_h2{
+            font-family: 'Montserrat', sans-serif;
             text-align: center;
             color: $color_beige;
             margin: 5px;
@@ -25,13 +27,14 @@ $color_red: #E8634E;
         }
     }
     .footer_duo{
+        font-family: 'Klee One', cursive;
         display: flex;
         margin: 5px;
         padding: 5px;
 
         .footer_email{
             width: 100%;
-            margin: auto;
+            
             text-align: center;
             .footer_h3{
                 margin: 10px;
@@ -47,13 +50,14 @@ $color_red: #E8634E;
                     text-align: center;
                 }
                 textarea{
-                   margin: 4%;
+                    margin: 4px;
                     border-radius: 6px;
                     height: 40px;
                 } 
                 input[type=submit]{
                     border-radius: 6px;
-                    margin: 1px;
+                    margin: 1px auto;
+                    width: 80px;
                 }
             }
         }
@@ -81,5 +85,6 @@ $color_red: #E8634E;
         color: white;
         font-size: 10px;
         text-align: center;
+        font-family: 'Klee One', cursive;
     }
 }

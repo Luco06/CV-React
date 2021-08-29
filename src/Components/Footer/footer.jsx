@@ -2,6 +2,7 @@ import React from 'react';
 import Github from '../../assets/images/github.png';
 import Linkedin from '../../assets/images/linkedin.png';
 import './footer.scss';
+import Contact from './contact';
 
 class Footer extends React.Component {
     state = {
@@ -26,13 +27,7 @@ class Footer extends React.Component {
 
                         <div className="footer_email">
                             <h3 className="footer_h3">{this.state.title2}</h3>
-                            <form action="" className="footer_form">
-                                <input type="text" placeholder="Prénom/Nom" />
-                                <input type="email" placeholder="Email" />
-                                <input type="text" placeholder="Sujet" />
-                                <textarea name="msg" id="" cols="18" rows="5"></textarea>
-                                <input type="submit" value="Envoyer" />
-                            </form>
+                                <Contact/>
                         </div>
 
                         <div className="footer_reseaux">

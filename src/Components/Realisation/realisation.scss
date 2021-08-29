@@ -1,4 +1,6 @@
 $color_red:#E8634E;
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Montserrat&display=swap');
+
 .rea_box{
     text-align: justify;
     .rea_title{
@@ -14,6 +16,7 @@ $color_red:#E8634E;
                 color: #E8634E;
                 text-align: center;
                 margin:5px;
+                font-family: 'Montserrat', sans-serif;
             }
             .barre_droite{
                 border: solid $color_red 2px;
@@ -24,6 +27,14 @@ $color_red:#E8634E;
         p{
             text-align: justify;
             margin: auto 18px;
+            font-family: 'Klee One', cursive;
+            a{
+                color: $color_red;
+                text-decoration: none;
+                &:visited{
+                    color: $color_red;
+                }
+            }
         }
     }
     .rea_items{
@@ -142,6 +153,29 @@ $color_red:#E8634E;
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
+                
+            }
+        }
+        .item5{
+            animation: From_east_to_west ;
+            animation-duration: 1s;
+            transition: 1s;
+    
+            @keyframes From_east_to_west {
+                from{
+                    transform: translateX(-100%);
+                }
+                to{
+                    transform: translateX(0%);
+                }
+            }
+            .rea_img5{
+                width: 60%;
+                margin:10px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                cursor: pointer;
                 
             }
         }

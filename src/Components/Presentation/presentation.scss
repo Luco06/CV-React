@@ -1,4 +1,5 @@
 $color_red: #E8634E;
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Montserrat&display=swap');
 .prez{
     text-align: center;
     .propos{
@@ -13,6 +14,8 @@ $color_red: #E8634E;
             color: $color_red;
             font-size: 20px;
             margin: 5px;
+            white-space: nowrap;
+            font-family: 'Montserrat', sans-serif;
         }
         .barre_droite{
             border: solid $color_red 2px;
@@ -22,10 +25,13 @@ $color_red: #E8634E;
     }
     .prez_h3{
         color: $color_red;
+        font-family: 'Montserrat', sans-serif;
+
     }
     .prez_p{
         text-align: justify;
         width: 90%;
         margin: auto;
+        font-family: 'Klee One', cursive;
     }
 }
