@@ -11,6 +11,9 @@ $color_red:#E8634E;
             .barre_gauche{
                 border: solid $color_red 2px;
                 width: 100%;
+                @media (min-width: 1024px){
+                    width: 30%;
+                  }
             }
             .rea_h2{
                 color: #E8634E;
@@ -21,6 +24,9 @@ $color_red:#E8634E;
             .barre_droite{
                 border: solid $color_red 2px;
                 width: 100%;
+                @media (min-width: 1024px){
+                    width: 30%;
+                  }
             }
     }
     .rea_txt{
@@ -69,18 +75,6 @@ $color_red:#E8634E;
         justify-content: center;
         width: auto;
         .item1{
-            animation: From_east_to_west ;
-            animation-duration: 1s;
-            transition: 1s;
-    
-            @keyframes From_east_to_west {
-                from{
-                    transform: translateX(-100%);
-                }
-                to{
-                    transform: translateX(0%);
-                }
-            }
             .rea_img1{
                 width: 60%;
                 margin:10px;
@@ -91,18 +85,6 @@ $color_red:#E8634E;
             }
         }
         .item2{
-            animation: From_west_to_east ;
-        animation-duration: 1s;
-        transition: 1s;
-
-        @keyframes From_west_to_east {
-            from{
-                transform: translateX(100%);
-            }
-            to{
-                transform: translateX(0%);
-            }
-        }
             .rea_img2{
                 width: 60%;
                 margin:10px;
@@ -113,18 +95,6 @@ $color_red:#E8634E;
             }
         }
         .item3{
-            animation: From_east_to_west ;
-            animation-duration: 1s;
-            transition: 1s;
-    
-            @keyframes From_east_to_west {
-                from{
-                    transform: translateX(-100%);
-                }
-                to{
-                    transform: translateX(0%);
-                }
-            }
             .rea_img3{
                 width: 60%;
                 margin:10px;
@@ -135,18 +105,6 @@ $color_red:#E8634E;
             }
         }
         .item4{
-            animation: From_west_to_east ;
-            animation-duration: 1s;
-            transition: 1s;
-    
-            @keyframes From_west_to_east {
-                from{
-                    transform: translateX(100%);
-                }
-                to{
-                    transform: translateX(0%);
-                }
-            }
             .rea_img4{
                 width: 60%;
                 margin:10px;
@@ -157,18 +115,6 @@ $color_red:#E8634E;
             }
         }
         .item5{
-            animation: From_east_to_west ;
-            animation-duration: 1s;
-            transition: 1s;
-    
-            @keyframes From_east_to_west {
-                from{
-                    transform: translateX(-100%);
-                }
-                to{
-                    transform: translateX(0%);
-                }
-            }
             .rea_img5{
                 width: 60%;
                 margin:10px;

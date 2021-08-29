@@ -8,6 +8,9 @@ $color_red:#E8634E;
     .barre_gauche{
         border: solid $color_red 2px;
         width: 100%;
+        @media (min-width: 1024px){
+            width: 30%;
+          }
     }
     .btn_skill{
         background-color: #C9C7B7 ;
@@ -23,6 +26,9 @@ $color_red:#E8634E;
     .barre_droite{
         border: solid $color_red 2px;
         width: 100%;
+        @media (min-width: 1024px){
+            width: 30%;
+          }
     }
 }
 .skill_items{

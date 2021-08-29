@@ -15,7 +15,7 @@ class Footer extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="footer_box">
+                <div className="footer_box" id="contact">
 
                     <div className="footer_title">
                         <div className="barre_gauche"></div>

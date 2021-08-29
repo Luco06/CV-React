@@ -24,7 +24,7 @@ class Skill extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="skill_title">
+                <div className="skill_title" id="skill">
                     <div className="barre_gauche"></div>
                     <button className="btn_skill"><h2 className='skill_h2'>{this.state.title}</h2></button>
                     <div className="barre_droite"></div>

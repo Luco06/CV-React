@@ -1,6 +1,9 @@
 .title_img{
     margin: 0;
     width: auto;
+    @media (max-width: 280px) {
+        margin-left: -15px;
+      }
     .img_title{
         width: 300px;
         display: block;

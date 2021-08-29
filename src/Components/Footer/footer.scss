@@ -13,6 +13,9 @@ $color_red: #E8634E;
         .barre_gauche{
             border: solid $color_beige 2px;
             width: 100%;
+            @media (min-width: 1024px){
+                width: 30%;
+              }
         }
         .footer_h2{
             font-family: 'Montserrat', sans-serif;
@@ -24,6 +27,9 @@ $color_red: #E8634E;
         .barre_droite{
             border: solid $color_beige 2px;
             width: 100%;
+            @media (min-width: 1024px){
+                width: 30%;
+              }
         }
     }
     .footer_duo{
@@ -34,7 +40,9 @@ $color_red: #E8634E;
 
         .footer_email{
             width: 100%;
-            
+            @media (max-width: 280px) {
+                width: 50%;
+              }
             text-align: center;
             .footer_h3{
                 margin: 10px;
@@ -65,6 +73,9 @@ $color_red: #E8634E;
             width: 100%;
             margin: auto;
             text-align: center;
+            @media (max-width: 280px) {
+                width: 50%;
+              }
             .footer_h3{
                 margin: 10px;
                 font-size: 12px;

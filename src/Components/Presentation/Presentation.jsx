@@ -10,7 +10,7 @@ class Presentation extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <div className="prez">
+                <div className="prez" id="prez">
 
                     <div className="propos">
                         <div className="barre_gauche"></div>
