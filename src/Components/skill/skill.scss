@@ -9,7 +9,7 @@ $color_red:#E8634E;
         border: solid $color_red 2px;
         width: 100%;
         @media (min-width: 1024px){
-            width: 30%;
+            width: 34%;
           }
     }
     .btn_skill{
@@ -19,15 +19,20 @@ $color_red:#E8634E;
 
         .skill_h2{
             text-align: center;
-            margin:1px;
+            margin:5px;
             font-family: 'Montserrat', sans-serif;
+            margin-left: 38px;
+            margin-right: 38px;
+            @media (min-width: 1024px){
+                font-size: 2rem;
+              }
         }
     }
     .barre_droite{
         border: solid $color_red 2px;
         width: 100%;
         @media (min-width: 1024px){
-            width: 30%;
+            width: 34%;
           }
     }
 }

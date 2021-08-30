@@ -22,6 +22,11 @@ $color_red: #E8634E;
             margin: 5px;
             white-space: nowrap;
             font-family: 'Montserrat', sans-serif;
+            margin-left: 30px;
+            margin-right: 30px;
+            @media (min-width: 1024px){
+                font-size: 2rem;
+              }
              }
              .barre_droite{
                 border: solid $color_red 2px;
@@ -54,6 +59,10 @@ $color_red: #E8634E;
         margin: auto;
         margin-top: 20px;
         border-radius: 10px;
+        @media (min-width: 1024px){
+            font-size: 1.5rem;
+            width: 300px;
+          }
             .hobbies_a{
                 text-align: center;
                 color: #E8634E;
