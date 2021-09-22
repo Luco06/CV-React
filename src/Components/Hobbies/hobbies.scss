@@ -10,6 +10,7 @@ $color_red: #E8634E;
         align-items: center;
         .barre_gauche{
             border: solid $color_red 2px;
+            background: $color_red;
             width: 100%;
             @media (min-width: 1024px){
                 width: 30%;
@@ -30,6 +31,8 @@ $color_red: #E8634E;
              }
              .barre_droite{
                 border: solid $color_red 2px;
+                
+                background: $color_red;
                 width: 100%;
                 @media (min-width: 1024px){
                     width: 30%;

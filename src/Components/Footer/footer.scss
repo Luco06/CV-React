@@ -13,6 +13,7 @@ $color_red: #E8634E;
             
         .barre_gauche{
             border: solid $color_beige 2px;
+            background-color: $color_beige;
             width: 100%;
             @media (min-width: 1024px){
                 width: 30%;
@@ -32,6 +33,7 @@ $color_red: #E8634E;
         }
         .barre_droite{
             border: solid $color_beige 2px;
+            background-color: $color_beige;
             width: 100%;
             @media (min-width: 1024px){
                 width: 30%;
