@@ -2,7 +2,7 @@ import React from 'react';
 import './navigation.scss';
 
 
-function Navigation (props){
+function Navigation (){
     return(
         <nav className="nav_navigation">
            <ul className="ul_navigation">

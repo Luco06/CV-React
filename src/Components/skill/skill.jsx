@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './skill.scss';
 import angular from '../../assets/images/angular.png';
 import boots from '../../assets/images/boots.png';
@@ -17,16 +17,14 @@ import node from '../../assets/images/Nodejs.png';
 
 
 
-class Skill extends React.Component {
-    state = {
-        title: "Skills"
-    }
-    render() {
+function Skill () {
+    const [title, setTitle] = useState('Skill')
+    
         return (
             <React.Fragment>
                 <div className="skill_title" id="skill">
                     <div className="barre_gauche"></div>
-                    <button className="btn_skill"><h2 className='skill_h2'>{this.state.title}</h2></button>
+                    <button className="btn_skill"><h2 className='skill_h2'>{title}</h2></button>
                     <div className="barre_droite"></div>
                 </div>
                     <div className="skill_items" >
@@ -64,7 +62,6 @@ class Skill extends React.Component {
                     </div>
             </React.Fragment>
         );
-    }
 }
 
 export default Skill;
