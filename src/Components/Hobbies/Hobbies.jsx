@@ -20,9 +20,9 @@ function Hobbies() {
                 <div className="slider"  >
                     <Slider />
                 </div>
-                <p className="hobbies_p">
+                {/* <p className="hobbies_p">
                     <a className="hobbies_a" href={Cv}>Telecharger mon CV</a>
-                </p>
+                </p> */}
             </div>
 
         </React.Fragment>
